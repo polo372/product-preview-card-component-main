@@ -12,6 +12,8 @@ button{
     transition-property: background-color;
     transition-duration: 1s;
 }
-button:hover{
+@media(min-width: 1440px){
+        button:hover{
     background-color: var(--green-700);
 }
+    }
