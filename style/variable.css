@@ -1,0 +1,17 @@
+:root{
+    /* Color */
+    --color-black: hsl(212, 21%, 14%);
+    --color-grey: hsl(228, 12%, 48%);
+    --color-cream: hsl(30, 38%, 92%);
+    --color-white: hsl(0, 0%, 100%);
+    /* Button Color */
+    --green-500: hsl(158, 36%, 37%);
+    --green-700: hsl(158, 42%, 18%);
+    /* Spacing */
+    --spacing-500: 2.5rem;/* 40px */
+    --spacing-400: 2rem;/* 32px */
+    --spacing-300: 1.5rem;/* 24px */
+    --spacing-200: 1rem;/* 16px */
+    --spacing-100: .5rem;/* 8px */
+    --spacing-50: .25rem;/* 4px */
+}

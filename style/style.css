@@ -1,0 +1,52 @@
+@import 'reset.css';
+@import 'variable.css';
+@import 'typo.css';
+@import 'component.css';
+@layer reset, typo, component;
+
+body{
+    background-color: var(--color-cream);
+}
+.display_mobile,
+main{
+    margin: 0 auto;
+}
+.display_mobile{
+    border-radius: var(--spacing-100) var(--spacing-100) 0 0;
+    height: 342px;
+    width: 350px;
+}
+main{
+    background-color: var(--color-white);
+    border-radius: 0 0 var(--spacing-100) var(--spacing-100);
+    width: 350px;
+    height: 408px;
+    padding: var(--spacing-400);
+}
+header,
+.description,
+.sold-price{
+    color: var(--color-grey);
+}
+h1{
+    color: var(--color-black);
+}
+.sell-price{
+    color: var(--green-500)
+}
+.sold-price{
+    text-decoration-line: line-through;
+}
+section :nth-child(-n + 2){
+    margin-bottom: var(--spacing-300);
+}
+.price{
+    display: flex;
+    margin: var(--spacing-300) 0;
+    gap: var(--spacing-200);
+    justify-content: flex-start;
+    align-items: center;
+}
+.display_desktop{
+    display: none;
+}
