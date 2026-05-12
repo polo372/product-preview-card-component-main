@@ -10,7 +10,7 @@ body{
 }
 figure{
     content: url(/images/image-product-mobile.jpg);
-    width: 100%
+    width: 100%;
 }
 main{
     background-color: var(--color-white);
@@ -27,7 +27,7 @@ header,
 .titre,
 .description,
 .price{
-    margin-bottom: var(--spacing-300)
+    margin-bottom: var(--spacing-300);
 }
 header,
 .description,
@@ -39,7 +39,7 @@ header,
     width: 100%;
 }
 .sell-price{
-    color: var(--green-500)
+    color: var(--green-500);
 }
 .sold-price{
     text-decoration-line: line-through;
