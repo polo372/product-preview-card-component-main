@@ -9,8 +9,7 @@ button{
     padding: var(--spacing-200) var(--spacing-400);
     gap: var(--spacing-100);
     color: var(--color-white);
-    transition-property: background-color;
-    transition-duration: 1s;
+    transition: background-color 1s;
 }
 @media(min-width: 1440px){
         button:hover{
